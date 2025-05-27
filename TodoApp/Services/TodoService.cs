@@ -71,7 +71,7 @@ namespace TodoApp.Services
             if (!await _appDbContext.Todos.AnyAsync(x => x.Id == id))
                 return new TodoResponseDto();
 
-            return await _appDbContext.Todos
+            return await _appDbContext.Todos.Where(x => x.Id == id)
                 .Select(x => new TodoResponseDto
                 {
                     Id = x.Id,
