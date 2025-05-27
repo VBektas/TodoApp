@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "TodoApp.Controllers.TodosController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Todos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TodoApp.Controllers.TodosController",
+    "Method": "Create",
+    "RelativePath": "api/v1/Todos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "todoCreateRequestDto",
+        "Type": "TodoApp.Dtos.RequestDtos.TodoCreateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TodoApp.Controllers.TodosController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Todos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TodoApp.Controllers.TodosController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Todos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TodoApp.Controllers.TodosController",
+    "Method": "SetCompleted",
+    "RelativePath": "api/v1/Todos/completed/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

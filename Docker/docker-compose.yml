@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: mssql
+    environment:
+      - SA_PASSWORD=${SA_PASSWORD}
+      - ACCEPT_EULA=Y
+    ports:
+      - "1433:1433"
+    restart: always
+    volumes:
+      - mssql_data:/var/opt/mssql
+  todoapi:
+    build:
+      context: ..
+      dockerfile: Docker/Dockerfile
+    container_name: todoapi
+    depends_on:
+      - mssql
+    ports:
+      - "5000:8080"
+
+volumes:
+  mssql_data:
