@@ -57,7 +57,7 @@ namespace TodoApp.Controllers
             return Ok(result);
         }
         /// <summary>
-        /// ID’ye göre görevi getirir.
+        /// ID’ye göre görevi completed yapar.
         /// </summary>
         [HttpGet("completed/{id}")]
         public async Task<IActionResult> SetCompleted(int id)
