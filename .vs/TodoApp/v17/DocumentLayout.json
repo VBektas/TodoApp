@@ -30,12 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,7 +40,7 @@
               "RelativeDocumentMoniker": "TodoApp\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\volka\\Desktop\\TodoApp\\TodoApp\\Properties\\launchSettings.json",
               "RelativeToolTip": "TodoApp\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-27T02:11:51.402Z",
               "EditorCaption": ""
@@ -72,8 +68,7 @@
               "RelativeToolTip": "TodoApp\\Program.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:08:22.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:08:22.76Z"
             },
             {
               "$type": "Document",
@@ -85,8 +80,7 @@
               "RelativeToolTip": "TodoApp\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-27T02:02:38.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:02:38.831Z"
             },
             {
               "$type": "Document",
@@ -98,8 +92,11 @@
               "RelativeToolTip": "TodoApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-27T02:02:29.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:02:29.644Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

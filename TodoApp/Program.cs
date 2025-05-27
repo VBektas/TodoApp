@@ -8,12 +8,8 @@ using TodoApp.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-
-// Connection string'i appsettings.json üzerinden oku
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-// DbContext'i DI sistemine kaydet
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString)); 
 
